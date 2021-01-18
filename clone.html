@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Kermit-talk</title>
+    <link href="clone-style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <i class="fas fa-frog status-icon"></i>
+            <span class="status-bar__service status-text">froggo</span>
+            <span class="material-icons status-icon"> wifi</span>
+        </div>
+        <div class="status-bar__column">
+            <span class="status-text__bold">18 : 20</span>
+        </div>
+        <div class="status-bar__column">
+            <span class="material-icons status-icon">signal_cellular_alt</span>
+            <span class="status-text">87%</span>
+            <i class="fas fa-battery-three-quarters status-icon"></i>
+            <i class="fas fa-bolt fa-xs status-icon"></i>
+        </div>
+
+    </div>
+
+    <div class="welcome-header">
+        <h1 class="welcome-header__title">🐸  Welcome to KermitTalk  🐸</h1>
+        <p class="welcome-header__contents">If you have a KermitTalk Account, <br /> log in with your email or phone number.</p>
+    </div>
+
+    <form action="landing-page.html" class="login-form">
+        <div class="input-container">
+            <input class="input-text__big" name="email-or-phonenumber" type="text" placeholder="Email or Phone number" required />
+            <input class="input-text__big" name="Password" type="password" placeholder="Password" required />
+        </div>
+
+        <div class="input-container">
+            <input id="login" class="input-text__mid" name="Submit" type="submit" value="Log In" />
+            <input class="input-text__mid" name="Submit" type="submit" value="Sign Up" />
+            <a id="find-text" href="#">Find KermitTalk Account or Password</a> 
+        </div>
+    </form>
+
+
+
+
+    <!-- <a href="new.html">go to new page</a>
+    <form action="new.html">
+        <input type="text" name="id" />
+        <input type="password" name="password" />
+        <input type="submit" value="Login">
+        <h1>😇</h1>
+    </form> -->
+</body>
+
+<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+
+</html>

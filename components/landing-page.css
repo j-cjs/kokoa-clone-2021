@@ -1,0 +1,33 @@
+.main-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 65px;
+  font-family: "Covered By Your Grace", cursive;
+  color: var(--focus);
+  text-align: center;
+  margin-top: 330px;
+  margin-bottom: 20px;
+  animation: 2s rotate-scale-down-hor infinite;
+}
+
+@keyframes rotate-scale-down-hor {
+  0% {
+    transform: scale(1) rotateX(0);
+  }
+  50% {
+    transform: scale(0.5) rotateX(-180deg);
+  }
+  100% {
+    transform: scale(1) rotateX(-360deg);
+  }
+}
+
+#main-kermit {
+  width: 50%;
+  height: 50%;
+}

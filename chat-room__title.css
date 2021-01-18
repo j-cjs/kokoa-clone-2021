@@ -1,0 +1,161 @@
+.chat-room__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px 20px 0 20px;
+}
+
+.chat-room-who {
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  left: 20px;
+}
+.chat-room__icons {
+  font-size: 30px;
+}
+
+.chat-room__search {
+  margin-right: 10px;
+}
+
+.chat-room__date {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-room-data {
+  background-color: var(--main-lime);
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+  font-size: 13px;
+}
+
+.chat-room__first {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.sender__photo {
+  width: 9%;
+  height: 9%;
+  border-radius: 35%;
+  margin: 0 20px;
+}
+
+.sender-name {
+  font-size: 16px;
+  color: var(--text-gray);
+}
+
+.sender__container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.sender-message {
+  display: block;
+  background-color: transparent;
+  border: 2.5px solid;
+  border-color: var(--main-lime);
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 0px 50px 50px 50px;
+  line-height: 22px;
+}
+
+.sender-message__time {
+  font-size: 12px;
+  color: var(--text-gray);
+  margin: 0 0 5px 10px;
+}
+
+.elmo-emoji {
+  width: 30%;
+  height: 30%;
+}
+
+.chat-room__second {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+}
+
+.user-message__time {
+  font-size: 12px;
+  color: var(--text-gray);
+  margin: 0 7px;
+}
+
+.user__container {
+  margin-right: 20px;
+}
+
+.user-message {
+  background-color: transparent;
+  border: 2.5px solid;
+  border-color: var(--main-lime);
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 50px 0px 50px 50px;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.text-input-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--main-lime);
+  padding: 15px 10px;
+}
+
+.plus-text {
+  font-size: 25px;
+  background-color: transparent;
+  border: 3px white solid;
+  border-radius: 10px;
+  color: white;
+  padding: 3px 8px;
+  margin-left: 10px;
+}
+
+.text-input-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.text-input {
+  width: 380px;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.fa-smile-wink {
+  font-size: 20px;
+  color: var(--main-lime);
+}
+
+.arrow-background {
+}
+
+.icon-north {
+  color: white;
+  background-color: var(--main-lime);
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin: 0 15px;
+}

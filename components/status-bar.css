@@ -1,0 +1,28 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--sub-lime);
+}
+.status-bar__column {
+  display: flex;
+  align-items: center;
+}
+
+.status-icon {
+  font-size: 18px;
+  margin: 0 6px;
+}
+
+.status-text__bold {
+  font-weight: 600;
+}
+
+.fa-frog {
+  color: var(--main-lime);
+}
