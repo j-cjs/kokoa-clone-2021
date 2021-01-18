@@ -1,0 +1,56 @@
+.title__top {
+  margin: 60px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title__top__icons {
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title__top__icons__2 {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-search {
+  transition: ease-in-out 0.2s;
+}
+.icons-search:hover {
+  color: var(--main-lime);
+  cursor: default;
+}
+
+.icons-music-menu {
+  transition: ease-in-out 0.2s;
+}
+.icons-music-menu:hover {
+  color: var(--main-lime);
+  cursor: default;
+}
+
+.icons-setting {
+  transition: ease-in-out 0.2s;
+}
+.icons-setting:hover {
+  color: var(--main-lime);
+  cursor: default;
+}
+
+.title__top__friends {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.icons-add-chat {
+  transition: ease-in-out 0.2s;
+}
+
+.icons-add-chat:hover {
+  color: var(--main-lime);
+  cursor: default;
+}
